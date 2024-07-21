@@ -1,0 +1,32 @@
+/* src/components/AboutSection.css */
+#about {
+  padding: 20px;
+  background-color: #0c0303;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#about ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+#about ul li a {
+  text-decoration: none;
+  color: #e9e4e4;
+}
+
+#about a {
+  text-decoration: none;
+  color: #007bff;
+}

@@ -1,0 +1,47 @@
+/* src/components/FeatureSection.css */
+
+.feature-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 30vh; /* Adjust as needed */
+  padding: 20px;
+}
+
+.feature-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between grid items */
+  max-width: 1200px; /* Adjust as needed */
+  width: 50%; /* Ensure it takes up full width up to max-width */
+}
+
+.feature {
+  display: flex;
+  flex-direction: column; /* Align image and text vertically */
+  align-items: center;
+  text-align: center;
+  background-color: #f9f9f9; /* Background color for each feature */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow effect */
+}
+
+.feature img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* Ensure image fits nicely */
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.feature h2 {
+  font-size: small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1em;
+  color: #333; /* Text color */
+}

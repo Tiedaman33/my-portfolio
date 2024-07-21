@@ -1,0 +1,64 @@
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/public/Cover.jpg'); /* Ensure the image path is correct */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.profile-container {
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.profile-image {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white; /* Optional: Add a border around the profile image */
+}
+
+#intro h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+#intro p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#intro p span {
+  color: #FFD700; /* Gold color for the first span */
+  font-weight: bold;
+}
+
+#intro p span span {
+  color: #FF4500; /* OrangeRed color for the second span */
+  font-weight: bold;
+}
+
+#intro p span span span {
+  color: #420808; /* DodgerBlue color for the third span */
+  font-weight: bold;
+}
+
+#intro p span span span span {
+  color: #32CD32; /* LimeGreen color for the fourth span */
+  font-weight: bold;
+}
+
+#intro button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
