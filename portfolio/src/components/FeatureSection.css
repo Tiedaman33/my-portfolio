@@ -1,19 +1,20 @@
 /* src/components/FeatureSection.css */
 
 .feature-container {
-  display: flex;
+  display:flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  min-height: 30vh; /* Adjust as needed */
-  padding: 20px;
+  min-height: 20%; /* Adjust as needed */
+  padding: 15px;
 }
 
 .feature-section {
-  display: grid;
+  display:grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
-  gap: 20px; /* Space between grid items */
-  max-width: 1200px; /* Adjust as needed */
-  width: 50%; /* Ensure it takes up full width up to max-width */
+  gap: 50px; /* Space between grid items */
+  max-width: 60%; /* Adjust as needed */
+  width: 100%; /* Ensure it takes up full width up to max-width */
+  align-items: center;
 }
 
 .feature {

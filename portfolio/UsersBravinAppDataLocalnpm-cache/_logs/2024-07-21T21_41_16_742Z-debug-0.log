@@ -7,6 +7,7 @@
 6 silly config:load:file:C:\Users\Bravin\my-portfolio\portfolio\UsersBravinAppDataRoamingnpm\etc\npmrc
 7 verbose title npm start
 8 verbose argv "start"
-9 verbose logfile logs-max:10 dir:C:\Users\Bravin\my-portfolio\portfolio\UsersBravinAppDataLocalnpm-cache\_logs\2024-07-18T20_18_26_512Z-
-10 verbose logfile C:\Users\Bravin\my-portfolio\portfolio\UsersBravinAppDataLocalnpm-cache\_logs\2024-07-18T20_18_26_512Z-debug-0.log
-11 silly logfile done cleaning log files
+9 verbose logfile logs-max:10 dir:C:\Users\Bravin\my-portfolio\portfolio\UsersBravinAppDataLocalnpm-cache\_logs\2024-07-21T21_41_16_742Z-
+10 verbose logfile C:\Users\Bravin\my-portfolio\portfolio\UsersBravinAppDataLocalnpm-cache\_logs\2024-07-21T21_41_16_742Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files

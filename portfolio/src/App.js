@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import './App.css';
 import IntroSection from './components/IntroSection';
@@ -10,10 +9,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav>
-          <ul>
-            <li><a href="#intro">Intro</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#about">About</a></li>
+          <div className="logo">Orina</div>
+          <ul className="nav-links">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
           </ul>
         </nav>
       </header>

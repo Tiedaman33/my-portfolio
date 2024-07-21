@@ -7,7 +7,6 @@
 6 silly config:load:file:C:\Users\Bravin\my-portfolio\portfolio\UsersBravinAppDataRoamingnpm\etc\npmrc
 7 verbose title npm start
 8 verbose argv "start"
-9 verbose logfile logs-max:10 dir:C:\Users\Bravin\my-portfolio\portfolio\UsersBravinAppDataLocalnpm-cache\_logs\2024-07-18T20_16_16_675Z-
-10 verbose logfile C:\Users\Bravin\my-portfolio\portfolio\UsersBravinAppDataLocalnpm-cache\_logs\2024-07-18T20_16_16_675Z-debug-0.log
+9 verbose logfile logs-max:10 dir:C:\Users\Bravin\my-portfolio\portfolio\UsersBravinAppDataLocalnpm-cache\_logs\2024-07-21T21_33_27_142Z-
+10 verbose logfile C:\Users\Bravin\my-portfolio\portfolio\UsersBravinAppDataLocalnpm-cache\_logs\2024-07-21T21_33_27_142Z-debug-0.log
 11 silly logfile done cleaning log files
-12 http fetch GET 200 https://registry.npmjs.org/npm 5505ms
